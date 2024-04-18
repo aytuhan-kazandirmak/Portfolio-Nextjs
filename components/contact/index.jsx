@@ -5,7 +5,7 @@ const ContactComponent = () => {
     <div id="contact" className={styles.contacts}>
       <div className={styles.contact}>
         <div>
-          <p className={styles.contactHeader}>Let's Talk</p>
+          <p className={styles.contactHeader}>Let&rsquo;s Talk</p>
           <p>
             Don&rsquo;t be shy, I&rsquo;m always open to new ideas and
             collaborations.

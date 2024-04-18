@@ -7,7 +7,7 @@ const BiographyComponent = () => {
       <div className={styles.section}>
         <CoverPicture width="450" height="483" />
         <div className={styles.sectionText}>
-          <h2 className={styles.header}>Hi! I'm Aytuhan</h2>
+          <h2 className={styles.header}>Hi! I&rsquo;m Aytuhan</h2>
           <br />
           <p>
             Hello! I&rsquo;m Aytuhan, a software developer based in Istanbul,
