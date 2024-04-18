@@ -1,0 +1,35 @@
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.project {
+    width: 100%;
+    display: flex;
+    column-gap: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 350px;
+    height: 204px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    height: 550px;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 72px;
+}
+
+.seriesName {
+    font-size: 22px;
+    font-weight: 600;
+}

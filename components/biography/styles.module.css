@@ -1,0 +1,23 @@
+.sections {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 102px;
+}
+
+.section {
+    display: flex;
+    width: 75%;
+    column-gap: 36px;
+    align-items: center;
+}
+
+.sectionText {
+    font-weight: 500;
+    color: #042825ec;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    border-top: 1px solid #6d848222;
+    width: 100%;
+}
+
+.footerDetails {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerIcons {
+    display: flex;
+    column-gap: 16px;
+}
+
+.icons {
+    color: #042825ec;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footerText {
+    font-size: 14px;
+    color: #042825ec;
+    font-weight: 600;
+}

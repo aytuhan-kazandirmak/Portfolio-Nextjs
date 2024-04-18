@@ -1,0 +1,29 @@
+.myStacks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #042825;
+    height: 120px;
+}
+
+.myStack {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.header {
+    font-weight: 500;
+    color: white;
+}
+
+.myStackIcons {
+    display: flex;
+    column-gap: 24px;
+}
+
+.icons {
+    font-size: 60px;
+    color: white;
+}
