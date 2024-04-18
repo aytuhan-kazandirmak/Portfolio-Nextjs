@@ -1,18 +1,7 @@
-import MyStackComponent from "@/components/mystack";
-import BiographyComponent from "@/components/biography";
-import React from "react";
-import ContactComponent from "@/components/contact";
-import ProjectComponent from "@/components/projects";
+import HomeContainer from "@/containers/home";
 
 const HomePage = () => {
-  return (
-    <section className="section">
-      <BiographyComponent />
-      <MyStackComponent />
-      <ProjectComponent />
-      <ContactComponent />
-    </section>
-  );
+  return <HomeContainer />;
 };
 
 export default HomePage;
