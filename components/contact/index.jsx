@@ -6,7 +6,10 @@ const ContactComponent = () => {
       <div className={styles.contact}>
         <div>
           <p className={styles.contactHeader}>Let's Talk</p>
-          <p>Don't be shy, I'm always open to new ideas and collaborations.</p>
+          <p>
+            Don&rsquo;t be shy, I&rsquo;m always open to new ideas and
+            collaborations.
+          </p>
         </div>
         <form className={styles.form} netlify>
           <label htmlFor="name">Name</label>
