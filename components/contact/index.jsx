@@ -17,6 +17,7 @@ const ContactComponent = () => {
           data-netlify="true"
           className={styles.form}
         >
+          <input type="hidden" name="form-name" value="contact" />
           <p className={styles.contactp}>
             <label htmlFor="name">Name</label>
             <input name="name" type="text" placeholder="Jack Ellison" />
