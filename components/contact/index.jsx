@@ -17,15 +17,15 @@ const ContactComponent = () => {
           data-netlify="true"
           className={styles.form}
         >
-          <label htmlFor="name">Name</label>
+          <label for="name">Name</label>
           <input name="name" type="text" placeholder="Jack Ellison" />
-          <label htmlFor="email">Email</label>
+          <label for="email">Email</label>
           <input
             name="email"
             type="email"
             placeholder="j.ellison@example.com"
           />
-          <label htmlFor="message">Message</label>
+          <label for="message">Message</label>
           <textarea name="message" type="text" placeholder="Need some help" />
           <button className={styles.submitButton} type="submit">
             Send
