@@ -12,10 +12,10 @@ const ContactComponent = () => {
           </p>
         </div>
         <form
-          data-netlify="true"
           name="contact"
+          method="POST"
+          data-netlify="true"
           className={styles.form}
-          netlify
         >
           <label htmlFor="name">Name</label>
           <input name="name" type="text" placeholder="Jack Ellison" />
