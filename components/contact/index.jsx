@@ -12,7 +12,6 @@ const ContactComponent = () => {
           </p>
         </div>
         <form
-          action="post"
           data-netlify="true"
           name="contact"
           className={styles.form}
