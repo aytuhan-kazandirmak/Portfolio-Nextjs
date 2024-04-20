@@ -34,9 +34,11 @@ const ContactComponent = () => {
             <label htmlFor="message">Message</label>
             <textarea name="message" type="text" placeholder="Need some help" />
           </p>
-          <button className={styles.submitButton} type="submit">
-            Send
-          </button>
+          <p>
+            <button className={styles.submitButton} type="submit">
+              Send
+            </button>
+          </p>
         </form>
       </div>
     </div>
