@@ -10,7 +10,7 @@ const BiographyComponent = () => {
           <h2 className={styles.header}>Hi! I&rsquo;m Aytuhan</h2>
           <br />
           <p>
-            I&rsquo;m a software developer based in Istanbul, Turkey. I describe
+            I&rsquo;m a software developer based in Sakarya, Turkey. I describe
             myself as a curious and patient student.
           </p>
           <br />
