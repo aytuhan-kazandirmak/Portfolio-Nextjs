@@ -11,28 +11,20 @@ const ContactComponent = () => {
             collaborations.
           </p>
         </div>
-        <form name="contact" method="post" netlify className={styles.form}>
-          <label htmlFor="name">
-            Name <input name="name" type="text" placeholder="Jack Ellison" />
-          </label>
-
-          <label htmlFor="email">
-            Email{" "}
-            <input
-              name="email"
-              type="email"
-              placeholder="j.ellison@example.com"
-            />
-          </label>
-
-          <label htmlFor="message">
-            Message{" "}
-            <textarea name="message" type="text" placeholder="Need some help" />
-          </label>
-
-          <button className={styles.submitButton} type="submit">
-            Send
-          </button>
+        <form name="contact" method="post" netlify>
+          <p>
+            <label>
+              Name <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Email <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
         </form>
       </div>
     </div>
