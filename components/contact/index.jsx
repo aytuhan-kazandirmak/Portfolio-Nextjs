@@ -11,7 +11,7 @@ const ContactComponent = () => {
             collaborations.
           </p>
         </div>
-        <form className={styles.form} netlify>
+        <form name="contact" className={styles.form} netlify>
           <label htmlFor="name">Name</label>
           <input name="name" type="text" placeholder="Jack Ellison" />
           <label htmlFor="email">Email</label>
