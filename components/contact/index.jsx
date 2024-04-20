@@ -12,10 +12,9 @@ const ContactComponent = () => {
           </p>
         </div>
         <form
-          action="/success"
           name="contact"
           method="post"
-          netlify
+          data-netlify="true"
           className={styles.form}
         >
           <input type="hidden" name="form-name" value="contact" />
