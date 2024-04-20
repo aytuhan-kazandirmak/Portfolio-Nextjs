@@ -26,6 +26,11 @@
     border: 1px rgb(209, 209, 209) solid;
 }
 
+.contactp {
+    display: flex;
+    flex-direction: column;
+}
+
 .form>* {
     width: 100%;
 }

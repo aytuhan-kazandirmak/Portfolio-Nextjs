@@ -17,16 +17,22 @@ const ContactComponent = () => {
           data-netlify="true"
           className={styles.form}
         >
-          <label for="name">Name</label>
-          <input name="name" type="text" placeholder="Jack Ellison" />
-          <label for="email">Email</label>
-          <input
-            name="email"
-            type="email"
-            placeholder="j.ellison@example.com"
-          />
-          <label for="message">Message</label>
-          <textarea name="message" type="text" placeholder="Need some help" />
+          <p className={styles.contactp}>
+            <label htmlFor="name">Name</label>
+            <input name="name" type="text" placeholder="Jack Ellison" />
+          </p>
+          <p className={styles.contactp}>
+            <label htmlFor="email">Email</label>
+            <input
+              name="email"
+              type="email"
+              placeholder="j.ellison@example.com"
+            />
+          </p>
+          <p className={styles.contactp}>
+            <label htmlFor="message">Message</label>
+            <textarea name="message" type="text" placeholder="Need some help" />
+          </p>
           <button className={styles.submitButton} type="submit">
             Send
           </button>
