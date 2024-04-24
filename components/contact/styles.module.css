@@ -16,46 +16,9 @@
     font-weight: 700;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 48px 24px;
-    width: 38%;
-    justify-content: center;
-    border: 1px rgb(209, 209, 209) solid;
-}
+
 
 .contactp {
     display: flex;
     flex-direction: column;
-}
-
-.form>* {
-    width: 100%;
-}
-
-.form input {
-    height: 48px;
-    border: 1px rgb(230, 230, 230) solid;
-    padding: 8px;
-    margin-bottom: 36px;
-    outline: none;
-}
-
-.form textarea {
-    height: 72px;
-    border: 1px rgb(230, 230, 230) solid;
-    padding: 8px;
-    margin-bottom: 36px;
-    outline: none;
-}
-
-.submitButton {
-    background-color: #042825ec;
-    color: white;
-    margin-bottom: 0px;
-    height: 48px;
-    padding: 4px;
-    width: 100%;
 }
