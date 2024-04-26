@@ -5,7 +5,6 @@ const BiographyComponent = () => {
   return (
     <div id="about" className={styles.sections}>
       <div className={styles.section}>
-        <CoverPicture width="450" height="483" />
         <div className={styles.sectionText}>
           <h2 className={styles.header}>Hi! I&rsquo;m Aytuhan</h2>
           <br />
@@ -20,15 +19,15 @@ const BiographyComponent = () => {
             this philosophy in my professional services and personal projects.
           </p>
           <br />
-          <p>
+          <p className={styles.text}>
             Although I don&rsquo;t have an active full-time job, I freelance and
             am involved in various projects. I don&rsquo;t specialize in React
             Native, but I have a strong experience with React. My projects
             usually focus on developing user-friendly interfaces and providing
             innovative solutions.
           </p>
-          <br />
-          <p>
+          <br className={styles.text} />
+          <p className={styles.text}>
             Instead of blog posts, I prefer to highlight my experiences and
             achievements in various projects.
           </p>
@@ -38,6 +37,7 @@ const BiographyComponent = () => {
             used in these projects and how I used them effectively.
           </p>
         </div>
+        <CoverPicture />
       </div>
     </div>
   );

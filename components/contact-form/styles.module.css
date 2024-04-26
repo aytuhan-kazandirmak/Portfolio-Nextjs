@@ -36,3 +36,13 @@
     justify-content: center;
     border: 1px rgb(209, 209, 209) solid;
 }
+
+@media screen and (max-width: 768px) {
+    .form {
+        display: block;
+        width: 70%;
+        justify-content: center;
+    }
+
+
+}

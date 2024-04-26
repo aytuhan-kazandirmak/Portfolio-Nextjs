@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Cover from "../../public/cover.jpg";
+7;
+import styles from "./styles.module.css";
 
-const CoverPicture = ({ width, height }) => {
+const CoverPicture = () => {
   return (
     <Image
       src={Cover}
       alt="Aytuhan Kazandırmak's Image"
-      width={width}
-      height={height}
+      className={styles.coverPic}
     />
   );
 };
